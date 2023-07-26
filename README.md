@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##Example Output
+![pulsesync](https://github.com/joecwh/PulseSync_API/assets/139208886/eb632953-44e4-456d-acaf-1b4d9b867ddd)
+
+![pulsesync2](https://github.com/joecwh/PulseSync_API/assets/139208886/f4ef1ae8-1260-4c31-b8b6-da3c54d8416e)
