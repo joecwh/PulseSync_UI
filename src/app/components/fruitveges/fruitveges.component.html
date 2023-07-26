@@ -1,0 +1,19 @@
+<div class="container">
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Category</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="data">
+            <tr *ngFor="let d of data">
+              <td>{{d.id}}</td>
+              <td>{{d.name}}</td>
+              <td>{{d.category}}</td>
+            </tr>
+        </tbody>
+        <p *ngIf="!data" class="text-center text-danger fs-4">Oppss... The file is not found or the content is empty.</p>
+    </table>
+</div>
